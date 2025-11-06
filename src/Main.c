@@ -42,7 +42,7 @@ void Update(AlxWindow* w){
             n += 1.0;
             n /= 2.0;
             
-            Draw(x,y,Pixel_toRGBA(n,n,n,1.0f));
+            Point_Render(WINDOW_STD_ARGS,(Vec2){ x,y },Pixel_toRGBA(n,n,n,1.0f));
         }
     }
     
